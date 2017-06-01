@@ -8,7 +8,7 @@
 
 2.在body里加入如下的div布局;需要几个页面里面的“自定2”就有几个，然后你的所有页面信息都在<div class="自定2">这里</div>里布局就行了；
 
-<div id="自定1">
+      <div id="自定1">
 
         <div class="自定2">0</div>
         
@@ -24,12 +24,19 @@
         
         ...
         
-    </div>
+      </div>
+    
     
     3.实例一个对象，传一个对象，box填你的div的id，items填classname，如：
+    
     <script>
+    
         var Split = new SplitScreen({
+        
             box: "自定1",
+            
             items: "自定2"
+            
         });
+        
     </script>
