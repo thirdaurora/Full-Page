@@ -27,7 +27,7 @@
       </div>
     
     
-    3.实例一个对象，传一个对象，box填你的div的id，items填classname，如：
+    3.实例化一个函数，传一个对象，box填你的div的id，items填classname，如：
     
     <script>
     
